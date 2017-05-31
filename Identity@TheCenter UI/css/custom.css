@@ -1,0 +1,505 @@
+body {
+	/* color: #fff; */
+	background-color: #dfdfdf;
+}
+h3, h4 {
+	margin: 10px 0 30px 0;
+	font-size: 20px;
+	/* color: #fff; */
+}
+.container {
+	padding: 80px 60px;
+}
+.container-fluid {
+	padding: 0px 150px;
+}
+
+.navbar-brand {
+	font-size: 26px;
+}
+
+.bg-1 {
+	background: #2d2d30;
+	color: #bdbdbd;
+}
+.bg-1 h3 {
+	color: #fff;
+}
+.bg-1 p {
+	font-style: italic;
+}
+.list-group-item:first-child {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.thumbnail {
+	padding: 0 0 15px 0;
+	border: none;
+	border-radius: 0;
+}
+.thumbnail p {
+	margin-top: 15px;
+	color: #555;
+}
+
+.modal-header, h4, .close {
+	background-color: #aaa;
+	color: #fff !important;
+	font-size: 22px;
+}
+.modal-header, .modal-body {
+	padding: 40px 50px;
+}
+.nav-tabs li a {
+	color: #777;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 0;
+	font-size: 16px !important;
+	/* opacity: 0.9; */
+	border-bottom: 1px solid #ddd;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #666 !important;
+}
+.navbar-nav li a:hover {
+	color: #333 !important;
+}
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+.open .dropdown-toggle {
+	color: #333 !important;
+	background-color: #f4f4f4 !important;
+}
+.dropdown-menu li a {
+	color: #000 !important;
+	display: grid;
+	padding: 8px 20px;
+}
+.dropdown-menu li a:hover {
+	background-color: #f4f4f4 !important;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #ccc;
+	color: #666 !important;
+}
+footer {
+	background-color: #fff;
+	color: #333;
+	padding: 12px;
+	border-top: 1px solid #ccc;
+	width: 100%;
+	bottom: 0px;
+}
+footer a {
+	color: #F58424;
+}
+footer a:hover {
+	color: #666;
+	text-decoration: none;
+}
+.form-control {
+	border-radius: 0;
+}
+textarea {
+	resize: none;
+}
+
+.startNowbtn {
+	width: 100%;
+}
+
+.iconsClass {
+
+	width: 30px;
+	height: 30px;
+}
+
+.policiesICON {
+
+}
+
+.miniLogoICON {
+	width: 40px;
+	height: 40px;
+}
+
+.navbar-brand > img {
+	display: inline-block;
+}
+.BigLOGOClass {
+	width: 120px;
+}
+
+.dropdown-menu-custom {
+
+	width: 100%;
+	border: 1px solid #fff;
+	display: block;
+	position: relative;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 7px;
+	color: #F58424 !important;
+	background-color: #fff;
+}
+
+.editTitleICON {
+
+	width: 15px;
+	height: 15px;
+	margin-top: -33px;
+	margin-left: 5px;
+}
+
+.dropdown-content {
+
+	width: 100%;
+	padding: 20px;
+}
+
+.dropdown-content li {
+
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin-right: 30px;
+}
+.caret {
+
+	border-top: 15px dashed;
+	border-top: 15px solid\9;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	right: 15px;
+	position: absolute;
+	top: 45%;
+}
+.iconsClass-big {
+	width: 65px;
+	height: 65px;
+}
+.font-20 {
+	font-size: 20px;
+}
+
+.systemActions {
+	text-align: right;
+	visibility: hidden;
+}
+
+.systemIcon {
+	margin-bottom: 5px;
+	margin: 0px auto 5px auto;
+	display: table;
+}
+
+.systemBoxContainer {
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.systemName {
+	display: block;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #808080;
+}
+
+.addNewSystemIcon {
+
+	font-size: 90px !important;
+	display: block !important;
+	margin: 0 auto;
+	text-align: center;
+	color: #ec6f0a;
+}
+
+.comingSoonLabel {
+
+	position: absolute;
+	right: -10px;
+	background-color: #F58424;
+	font-size: 12px;
+}
+
+.moreWidthIcons {
+	width: 120px;
+}
+
+.moreWidthIcons2 {
+	width: 100px;
+	height: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.moreWidthIcons3 {
+	width: 100px;
+	height: 60px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.moreWidthIcons4 {
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.moreWidthIcons5 {
+	width: auto;
+	height: auto;
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+
+.addSystemDropDown {
+
+	cursor: pointer;
+}
+
+.open .addSystemDropDown {
+	color: #777 !important;
+	background-color: #fff !important;
+}
+
+.systemBoxContainer  .dropdown-menu {
+	width: 510px;
+	left: -170px;
+}
+
+.lastActionText {
+
+	float: right;
+	margin-top: 5px;
+	color: #ec6f0a;
+}
+
+.policyContainer {
+
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #eee;
+}
+
+.iconsClass-medium {
+
+	width: 40px;
+	height: 35px;
+}
+
+.FromToContainer {
+
+	float: left;
+	margin-left: 10px;
+}
+
+.policyDescription {
+
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.policyDropDown {
+
+	float: right;
+	margin-top: 22px;
+}
+
+.policyDropDownToggle {
+
+	float: left;
+}
+.policyDropDownMenu {
+	left: -135px;
+	top: 15px;
+}
+
+.policyTitle {
+
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.fromIcon {
+
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.toIcon {
+
+	float: left;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+	border-radius: 5px;
+}
+.policyToggle {
+
+	float: left;
+	margin-top: 10px;
+	margin-left: 51px;
+}
+
+.open .policyDropDownToggle {
+	color: #ccc !important;
+}
+
+.policyDropDownToggle .caret {
+	right: 0px;
+	color: #ec6f0a;
+}
+
+.historySubTitle {
+	color: #F58424;
+	font-weight: bold;
+}
+
+.historyDetailsTrigger {
+
+	display: block;
+	text-decoration: none !important;
+}
+
+.historyTime {
+	float: right;
+	margin-right: 20px;
+	margin-top: 8px;
+	color: #F58424;
+}
+
+.historyActivitySubTitle {
+
+	color: #F58424;
+	font-weight: bold;
+}
+
+.historyDetailsTrigger .caret {
+
+	top: 22px;
+	right: 25px;
+	color: #F58424;
+}
+
+.horizontalLine {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar:before {
+	background-color: #F58424;
+	height: 7px;
+	display: block;
+}
+
+.btn-primary {
+	background-color: #F58424;
+	border: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: #ec6f0a !important;
+	border: none;
+	outline: none !important;
+}
+
+.testConnetion {
+	color: #F58424;
+}
+
+.reconnectSystemIcon {
+	color: #F58424;
+}
+
+.badge {
+	background-color: #F58424;
+}
+
+.triggerEventDropdown {
+
+	float: left;
+	margin-left: 65px;
+	margin-top: -25px;
+	width: 250px;
+}
+
+.triggerTitle {
+	color: #F58424
+}
+
+.triggerConfigurationsTitle {
+
+}
+
+.triggerOptions {
+
+	padding: 6px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	margin-top: 10px;
+}
+
+.triggerInput {
+
+	width: 170px;
+	display: inline;
+	margin-left: 10px;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	border-radius: 5px;
+}
+
+.triggerConfigurations {
+
+font-size: 16px;
+
+width: 450px;
+
+padding: 15px;
+}
+
+.triggerConfigurationsBTN {
+
+	padding: 7px 48px;
+	margin-top: 10px;
+}
+
+.triggerEventDropdown .caret {
+	top: 35% !important;
+}
+
+.triggerList {
+	left: -62px;
+}
+
+.triggerEventDropdown .dropdown-toggle {
+	color: #666;
+}
+
+.triggerList2{
+	left: 30px;
+}
+
+
+.triggerOptions2{
+	width: 100%;
+	
+	padding: 6px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	margin-top: 10px;
+}
